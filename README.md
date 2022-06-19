@@ -21,6 +21,8 @@ const { screenshot, capture, isSupported } = useScreenshot()
 <img :src="screenshot" alt="base64-encoded string" />
 ```
 
+View screenshot options [here](https://github.com/xataio/screenshot#options).
+
 ## License
 
 [MIT](./LICENSE) License © 2022 [Robert Soriano](https://github.com/wobsoriano)
