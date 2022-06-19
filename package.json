@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@7.2.1",
-  "description": "",
+  "description": "Vue composable to take screenshots of a given web page, tab, window, or the user's entire screen.",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/wobsoriano/pkg-name#readme",
@@ -12,7 +12,11 @@
     "url": "git+https://github.com/wobsoriano/pkg-name.git"
   },
   "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "composable",
+    "hook"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
