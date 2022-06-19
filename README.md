@@ -1,11 +1,6 @@
-# library-starter
+# use-screenshot
 
-Features:
-
-- Package manager [pnpm](https://pnpm.js.org/), safe and fast
-- Execute TypeScript with [tsx](https://github.com/esbuild-kit/tsx)
-- Bundle with [tsup](https://github.com/egoist/tsup)
-- Test with [vitest](https://vitest.dev)
+Vue composable to take screenshots of a given web page, tab, window, or the user's entire screen. Powered by [@xata.io/screenshot](https://github.com/xataio/screenshot)
 
 ## License
 
