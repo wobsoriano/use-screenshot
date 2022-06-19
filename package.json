@@ -1,5 +1,5 @@
 {
-  "name": "pkg-name",
+  "name": "use-screenshot",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.2.1",
