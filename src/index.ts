@@ -37,14 +37,15 @@ export interface Options {
  * @param options
  */
 export function useScreenshot(options?: Options) {
+  // This is a base64-encoded string representing your screenshot.
   const screenshot = ref('')
 
   // Checks if the current browser supports the MediaDevices API.
   const isSupported = checkIfBrowserSupported()
 
   /**
- * Takes a screenshot of the current page using a the native browser [`MediaDevices`](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia) API.
- */
+   * Takes a screenshot of the current page using a the native browser [`MediaDevices`](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia) API.
+  */
   const capture = async () => {
     if (checkIfBrowserSupported()) {
       // @ts-expect-error: Webp internal
