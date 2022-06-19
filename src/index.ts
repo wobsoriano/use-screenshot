@@ -47,7 +47,7 @@ export function useScreenshot(options?: Options) {
    * Takes a screenshot of the current page using a the native browser [`MediaDevices`](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia) API.
   */
   const capture = async () => {
-    if (checkIfBrowserSupported()) {
+    if (isSupported) {
       // @ts-expect-error: Webp internal
       screenshot.value = await _takeScreenshot(options)
     }
